@@ -51,8 +51,6 @@ acegikm7on@gmail.com
 
 ---
 
-# English
-
 Split a track into **vocals · drums · bass · other (guitars/keys)** stems, then change pitch, mix levels, and export—all in one Windows app.
 
 ## Download (Windows)
