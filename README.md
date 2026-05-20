@@ -51,7 +51,7 @@ acegikm7on@gmail.com
 
 ---
 
-Split a track into **vocals · drums · bass · other (guitars/keys)** stems, then change pitch, mix levels, and export—all in one Windows app.
+Split a track into **vocals, drums, bass, and other (guitars/keys)** stems, then change pitch, adjust mix levels, and export—all in one Windows app.
 
 ## Download (Windows)
 
@@ -62,33 +62,33 @@ Split a track into **vocals · drums · bass · other (guitars/keys)** stems, th
 ### AI stem separation
 
 - Automatically splits a song into **vocals, drums, bass, and other (guitars/keys)** stems.
-- When separation finishes, you can play and adjust each stem right away.
+- Once separation is complete, you can immediately play and adjust each stem.
 
 ### Pitch shift (key change)
 
 - Raise or lower the key by up to **±2 semitones**.
-- Pitch is applied to vocals, bass, and other stems. (Drums stay at the original pitch.)
-- **Vocals** use formant preservation to keep voice character when shifting pitch.
-- Pitch results are saved on disk so reopening the same song loads quickly.
+- Pitch shifting is applied to vocals, bass, and other stems. (Drums remain at the original pitch.)
+- **Vocals** use formant preservation to maintain natural voice character during pitch shifting.
+- Pitch-shifted results are cached on disk for faster reloading.
 
 ### Per-instrument level control (mixer)
 
-- Fine-tune each stem from **0–100%** with vertical sliders.
-- Preview in real time—e.g. louder vocals, quieter drums—to get the balance you want.
+- Fine-tune each stem from **0–100%** using vertical sliders.
+- Preview changes in real time—for example, boost vocals or lower drums to get the balance you want.
 
 ### Presets
 
-- One-click combos such as **Original**, **Vocals only**, **No vocals**, **Drums only**, **No drums**, **Bass only**, **No bass**, **Other only**, and **No other**.
+- One-click presets including **Original**, **Vocals only**, **No vocals**, **Drums only**, **No drums**, **Bass only**, **No bass**, **Other only**, and **No other**.
 - **Listen in mono** toggles between stereo and mono playback.
 
 ### Local / YouTube audio
 
-- Point the app at a **folder of audio files** on your PC, or paste a **YouTube URL** (single video or playlist) in the path field.
+- Load audio files from a local folder on your PC, or paste a **YouTube URL** (single video or playlist) into the path field.
 
 ### Export
 
-- Save the current key and mixer settings as **WAV** (default, 32-bit float) or **MP3** (128 kbps CBR via bundled ffmpeg).
-- In the save dialog, pick format from the file type dropdown.
+- Export the current key and mixer settings as **WAV** (default, 32-bit float) or **MP3** (128 kbps CBR).
+- Choose the output format from the file type dropdown in the save dialog.
 
 ## Contact
 
