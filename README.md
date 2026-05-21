@@ -64,49 +64,13 @@
 
 ## 문제 해결
 
-설치·실행 중 나오는 Windows 경고는 **앱이 손상됐다는 뜻이 아닙니다.** 공개 설치 파일이 코드 서명 없이 배포될 때 흔히 보이는 화면입니다.
-
-### 설치할 때
-
-| 증상 | 대처 |
+| 상황 | 대처 |
 |------|------|
-| **「Windows의 PC 보호」 / SmartScreen** | **추가 정보** → **실행**을 선택합니다. 다운로드한 공식 설치 파일인지 주소를 확인하세요. |
-| **사용자 계정 컨트롤(UAC)** 「이 앱이 디바이스를 변경할 수 있도록 허용하시겠습니까?」 | 설치에 관리자 권한이 필요합니다. **예**를 눌러 진행합니다. |
-| 백신·보안 프로그램이 설치를 차단 | StemMixer 설치 폴더·`StemMixer.exe`를 예외(허용) 목록에 추가한 뒤 다시 시도합니다. |
-| 설치가 중간에 멈춤 | 다른 설치 프로그램을 종료하고, 설치 파일을 다시 받아 실행합니다. |
-
-### 실행 직후
-
-| 증상 | 대처 |
-|------|------|
-| **필수 구성 요소 누락** (FFmpeg 등) | 설치가 불완전할 수 있습니다. 앱을 제거한 뒤 설치 파일로 **다시 설치**하세요. |
-| **Cloud configuration** 오류로 앱이 바로 종료 | 배포본 설정 문제일 수 있습니다. [문의](#문의)로 설치 파일 버전과 메시지 전체를 알려 주세요. |
-| **저장 공간 연결** 경고 (유휴 사전 분리 일시 중지) | 클라우드 업로드 경로 점검용 안내입니다. **직접 스템 분리**는 인터넷과 클라우드 서버가 정상이면 가능한 경우가 많습니다. 경고가 반복되면 문의해 주세요. |
-
-### 클라우드 서버 표시등 · 스템 분리
-
-| 증상 | 대처 |
-|------|------|
-| 오래 **회색**만 보임 | 앱을 연 지 3~5초 정도 기다립니다. 그래도 회색이면 표시등을 **클릭**해 서버 깨우기를 시도한 뒤 **초록**이 될 때까지 기다립니다. |
-| **초록**인데 분리가 느림 | 곡 길이·네트워크·서버 대기열에 따라 수 분 걸릴 수 있습니다. 하단 진행률과 단계 문구를 확인하세요. |
-| **주황**에서 오래 멈춘 것 같음 | 업로드·분리·다운로드 중일 수 있습니다. 가능하면 앱을 끄지 말고 기다립니다. |
-| **빨강** | 네트워크 연결을 확인하고, 잠시 후 같은 곡으로 다시 시도합니다. 표시등이 **초록**일 때 시작하는 것을 권장합니다. |
-| 분리를 눌렀는데 바로 실패 | 인터넷 연결, 방화벽·VPN, 회사망 차단 여부를 확인합니다. |
-
-### YouTube · 폴더 ·보내기
-
-| 증상 | 대처 |
-|------|------|
-| YouTube **로그인** 안내 | 브라우저에서 YouTube에 로그인한 뒤 앱에서 **다시 시도**합니다. |
-| 브라우저 **로그인 정보를 읽을 수 없음** | 보안 프로그램·브라우저 쿠키 차단 설정을 확인합니다. |
-| **유효하지 않은 경로 또는 URL** | 로컬 **폴더 경로** 또는 올바른 YouTube 주소인지 확인합니다. |
-| **보내기**가 안 됨 | 스템 분리나 피치 작업이 끝난 뒤 다시 시도합니다. |
-| 피치만 바꿀 수 없음 | 먼저 해당 곡의 **스템 분리가 완료**되어야 합니다. |
-
-### 로그·지원 요청 시
-
-- 활동 패널을 **Shift+클릭**하면 상세 로그를 켤 수 있습니다(다시 Shift+클릭으로 끔).
-- 문의 시 **StemMixer 버전**, 증상, 표시등 색(회색/초록/주황/빨강), 가능하면 상세 로그 일부를 함께 보내 주시면 도움이 됩니다.
+| 설치 시 **Windows PC 보호(SmartScreen)** | **추가 정보** → **실행** (공식 설치 파일인지 확인) |
+| 하단 표시등이 오래 **회색** | 3~5초 대기 후, 원을 **클릭**해 서버를 깨운 뒤 **초록**일 때 스템 분리 |
+| 표시등 **빨강** 또는 분리 실패 | 인터넷·방화벽 확인 후, **초록**일 때 다시 시도 |
+| YouTube **로그인** 안내 | 브라우저에서 로그인 후 앱에서 **다시 시도** |
+| 그 외 | 활동 패널 **Shift+클릭**으로 상세 로그 확인 후 [문의](#문의) |
 
 ---
 
@@ -191,49 +155,13 @@ The **small dot** to the left of the status text (e.g. **Ready**) is **not** a l
 
 ## Troubleshooting
 
-Warnings during install or first run usually do **not** mean the app is broken. Unsigned public installers often trigger Windows SmartScreen.
-
-### During installation
-
-| Symptom | What to do |
-|---------|------------|
-| **Windows protected your PC** (SmartScreen) | Choose **More info** → **Run anyway**. Confirm you downloaded the official installer from the release page. |
-| **User Account Control** — allow changes to your device | The installer needs administrator permission. Choose **Yes**. |
-| Antivirus blocks the installer | Add the StemMixer install folder and `StemMixer.exe` to your allow/exclusion list, then retry. |
-| Install hangs or fails | Close other installers, re-download the `.exe`, and run it again. |
-
-### After launch
-
-| Symptom | What to do |
-|---------|------------|
-| **Critical Dependency Missing** (FFmpeg, etc.) | The install may be incomplete. Uninstall and **reinstall** from the official installer. |
-| **Cloud configuration** — app exits immediately | Likely a broken build configuration. [Contact](#contact) with the full message and installer version. |
-| **Storage connection** warning (idle pre-separation paused) | Ingest storage check failed for background pre-separation. **Manual stem separation** may still work if the network and cloud server are OK. If the warning keeps appearing, contact support. |
-
-### Cloud status dot · stem separation
-
-| Symptom | What to do |
-|---------|------------|
-| Dot stays **gray** for a long time | Wait 3–5 seconds after launch. If still gray, **click** the dot to wake the server, then wait until it turns **green**. |
-| **Green** but separation is slow | Long tracks, network speed, and server queue can take several minutes. Watch the bottom progress text. |
-| **Orange** seems stuck | Upload, separation, or download may still be running. Avoid force-closing the app if possible. |
-| **Red** | Check your internet connection and retry. Prefer starting separation when the dot is **green**. |
-| Separation fails right away | Check internet, firewall, VPN, or corporate network blocking. |
-
-### YouTube · folders · export
-
-| Symptom | What to do |
-|---------|------------|
-| YouTube **sign-in** prompt | Sign in to YouTube in your browser, then **Retry** in the app. |
-| Cannot read browser **login/cookies** | Review security software and browser cookie/privacy settings. |
-| **Invalid path or URL** | Use a valid local **folder path** or YouTube URL. |
-| **Export** does nothing | Wait until stem separation or pitch shift finishes, then try again. |
-| Pitch controls unavailable | Complete **stem separation** for that track first. |
-
-### Logs · contacting support
-
-- **Shift+click** the activity panel to toggle a detailed log (Shift+click again to turn off).
-- When reporting issues, include **StemMixer version**, what happened, dot color (gray/green/orange/red), and a short excerpt from the detailed log if possible.
+| Situation | What to do |
+|-----------|------------|
+| **SmartScreen** during install | **More info** → **Run anyway** (use the official installer) |
+| Status dot stays **gray** | Wait 3–5 s, then **click** the dot; start separation when **green** |
+| **Red** dot or separation fails | Check network/firewall, retry when **green** |
+| YouTube **sign-in** prompt | Sign in in your browser, then **Retry** in the app |
+| Other issues | **Shift+click** the activity panel for logs, then [Contact](#contact) |
 
 ## Contact
 
