@@ -8,8 +8,6 @@
 
 [**StemMixer v1.0.0 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.0_Installer.exe)
 
-> 소스 코드는 비공개 저장소에서 개발됩니다. 설치 파일과 문서는 [StemMixer-Release](https://github.com/acegikm7on/StemMixer-Release)에서 공개합니다.
-
 ---
 
 ## 주요 기능
@@ -85,8 +83,6 @@ Split a track into **vocals · drums · bass · other (guitars/keys)** stems, th
 ## Download (Windows)
 
 [**StemMixer v1.0.0 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.0_Installer.exe)
-
-> Source code is developed in a private repository. Installers and docs are published at [StemMixer-Release](https://github.com/acegikm7on/StemMixer-Release).
 
 ## Features
 
