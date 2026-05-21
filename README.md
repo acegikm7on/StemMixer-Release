@@ -78,6 +78,10 @@ acegikm7on@gmail.com
 
 ---
 
+<h1><img src="stemmixer.ico" alt="" width="40" height="40" style="vertical-align: middle; margin-right: 0.35em;"> StemMixer</h1>
+
+---
+
 Split a track into **vocals · drums · bass · other (guitars/keys)** stems, then change pitch, mix levels, and export—all in one Windows app.
 
 ## Download (Windows)
