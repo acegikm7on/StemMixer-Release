@@ -10,6 +10,8 @@
 
 DAW 없이 간단하게 사용할 수 있습니다.
 
+![StemMixer 앱 화면](images/screenshot.jpg)
+
 ---
 
 ## 다운로드
