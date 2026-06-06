@@ -91,7 +91,7 @@ You can change key, adjust each stem level, and export the final result.
 
 [**Download StemMixer v1.0.1 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.1_Installer.exe)
 
-**VocalRemover (vocal removal)**
+**VocalRemover**
 
 [**Download VocalRemover v1.0.0 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.0_Installer.exe)
 
