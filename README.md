@@ -18,11 +18,7 @@
 
 [**StemMixer v1.0.1 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.1_Installer.exe)
 
-이전 버전: [StemMixer v1.0.0](https://github.com/acegikm7on/StemMixer-Release/releases/download/v1.0.0/StemMixer_v1.0.0_Installer.exe)
-
-### VocalRemover
-
-**보컬 제거 특화** Windows 앱입니다. 곡에서 보컬과 반주를 분리하고, 보컬 비율을 슬라이더로 조절한 뒤 MP3 또는 WAV로 보내기 할 수 있습니다.
+### VocalRemover (보컬 제거 특화)
 
 [**VocalRemover v1.0.0 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.0_Installer.exe)
 
@@ -95,9 +91,7 @@ You can change key, adjust each stem level, and export the final result.
 
 [**Download StemMixer v1.0.1 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.1_Installer.exe)
 
-Previous: [StemMixer v1.0.0](https://github.com/acegikm7on/StemMixer-Release/releases/download/v1.0.0/StemMixer_v1.0.0_Installer.exe)
-
-**VocalRemover** — specialized for **vocal removal**. Split vocals and instrumental, adjust the vocal blend, and export as MP3 or WAV.
+**VocalRemover (vocal removal)**
 
 [**Download VocalRemover v1.0.0 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.0_Installer.exe)
 
