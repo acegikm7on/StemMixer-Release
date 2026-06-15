@@ -3,7 +3,7 @@
 ![StemMixer Main Banner](images/readme_banner.png)
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square)
-![Version](https://img.shields.io/badge/Version-v1.0.1-41B883?style=flat-square)
+![Version](https://img.shields.io/badge/Version-v1.0.2-41B883?style=flat-square)
 
 곡을 **보컬 · 드럼 · 베이스 · 기타/건반** 스템으로 분리하고,  
 키 변경 · 믹싱 · 보내기까지 한 번에 처리하는 Windows 앱입니다.
@@ -16,11 +16,11 @@
 
 ### StemMixer
 
-[**StemMixer v1.0.1 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.1_Installer.exe)
+[**StemMixer v1.0.2 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.2_Installer.exe)
 
 ### VocalRemover (보컬 제거 특화)
 
-[**VocalRemover v1.0.0 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.0_Installer.exe)
+[**VocalRemover v1.0.1 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.1_Installer.exe)
 
 ---
 
@@ -89,11 +89,11 @@ You can change key, adjust each stem level, and export the final result.
 
 **StemMixer**
 
-[**Download StemMixer v1.0.1 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.1_Installer.exe)
+[**Download StemMixer v1.0.2 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.2_Installer.exe)
 
 **VocalRemover**
 
-[**Download VocalRemover v1.0.0 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.0_Installer.exe)
+[**Download VocalRemover v1.0.1 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.1_Installer.exe)
 
 ### Main Features
 
