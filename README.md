@@ -4,11 +4,17 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-v1.0.2-41B883?style=flat-square)
+[![Website](https://img.shields.io/badge/Website-stemmixer-41B883?style=flat-square)](https://acegikm7on.github.io/StemMixer-Release/)
 
-곡을 **보컬 · 드럼 · 베이스 · 기타/건반** 스템으로 분리하고,  
-키 변경 · 믹싱 · 보내기까지 한 번에 처리하는 Windows 앱입니다.
+**StemMixer** is a Windows AI stem separation app that separates a song into **vocals, drums, bass, and instruments**.  
+It also supports vocal remover workflows, pitch shifting, per-stem volume mixing, YouTube input, and WAV/MP3 export.
+
+**StemMixer**는 Windows용 AI 스템 분리 앱입니다.  
+곡을 **보컬 · 드럼 · 베이스 · 기타/건반** 스템으로 분리하고, 보컬 제거, 키 변경, 악기별 믹싱, WAV/MP3 저장까지 한 번에 처리합니다.
 
 ![StemMixer 앱 화면](images/screenshot.jpg)
+
+**랜딩 페이지:** [acegikm7on.github.io/StemMixer-Release](https://acegikm7on.github.io/StemMixer-Release/)
 
 ---
 
@@ -79,9 +85,15 @@ OPEN → SPLIT → MIX → SAVE
 
 ---
 
+## Keywords
+
+AI stem separation, vocal remover, audio source separation, Windows stem splitter, remove vocals from song, split vocals drums bass instruments, pitch shift, karaoke maker, music practice tool.
+
+---
+
 ## English Summary
 
-StemMixer is a Windows app for separating a song into **vocals, drums, bass, and other instruments**.
+StemMixer is a Windows AI stem separation and vocal remover app for separating a song into **vocals, drums, bass, and other instruments**.
 
 You can change key, adjust each stem level, and export the final result.
 

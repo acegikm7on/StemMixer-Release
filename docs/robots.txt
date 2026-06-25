@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://acegikm7on.github.io/StemMixer-Release/sitemap.xml
