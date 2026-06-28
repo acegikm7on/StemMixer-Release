@@ -3,7 +3,8 @@
 ![StemMixer Main Banner](images/readme_banner.png)
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square)
-![Version](https://img.shields.io/badge/Version-v1.0.2-41B883?style=flat-square)
+![StemMixer](https://img.shields.io/badge/StemMixer-v1.1.0-41B883?style=flat-square)
+![VocalRemover](https://img.shields.io/badge/VocalRemover-v1.0.2-41B883?style=flat-square)
 [![Website](https://img.shields.io/badge/Website-stemmixer-41B883?style=flat-square)](https://acegikm7on.github.io/StemMixer-Release/)
 
 **StemMixer** is a Windows AI stem separation app that separates a song into **vocals, drums, bass, and instruments**.  
@@ -22,26 +23,38 @@ It also supports vocal remover workflows, pitch shifting, per-stem volume mixing
 
 ### StemMixer
 
-[**StemMixer v1.0.2 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.2_Installer.exe)
+[**StemMixer v1.1.0 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.0_Installer.exe)
 
 ### VocalRemover (보컬 제거 특화)
 
-[**VocalRemover v1.0.1 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.1_Installer.exe)
+[**VocalRemover v1.0.2 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.2_Installer.exe)
 
 ---
 
-## 주요 기능
+## 주요 기능 (StemMixer)
 
 | 기능 | 설명 |
 |---|---|
 | AI 스템 분리 | 한 곡을 보컬 · 드럼 · 베이스 · 기타/건반 스템으로 자동 분리 |
+| HQ Vocal | 고품질 보컬 분리(하이브리드 클라우드) |
 | 피치 시프트 | ±2 반음 범위에서 키 변경 |
 | 자연스러운 보컬 | 키를 바꿔도 목소리 느낌 변화 최소화 |
+| 드럼 원음 유지 | 드럼은 원래 소리 그대로 유지 |
+| 재생 속도 | 분리 결과 재생 속도 조절 |
 | 악기별 믹서 | 각 스템의 볼륨을 따로 조절 |
 | 프리셋 | 보컬 제거, 드럼 제거 등 자주 쓰는 조합 제공 |
 | 로컬 파일 지원 | PC에 저장된 음원 폴더를 불러와 사용 |
-| YouTube 지원 | YouTube URL을 붙여넣어 바로 사용 |
+| YouTube 지원 | YouTube URL · 플레이리스트를 붙여넣어 바로 사용 |
+| 빠른 다시 열기 | 이전 작업 결과를 빠르게 다시 불러옴 |
 | 보내기 | 현재 설정을 반영해 WAV 또는 MP3로 저장 |
+
+### VocalRemover
+
+| 기능 | 설명 |
+|---|---|
+| 보컬 제거 | 보컬/반주 블렌드 조절 후 MP3·WAV로 저장 |
+| YouTube · 플레이리스트 | URL 또는 플레이리스트에서 곡 선택 import |
+| 간단 UI | 스템 믹서 없이 보컬 제거에 특화 |
 
 ---
 
@@ -82,6 +95,7 @@ OPEN → SPLIT → MIX → SAVE
 | 분리 시작이 오래 걸림 | 잠시 기다린 뒤 다시 시도 |
 | 분리 실패 | 인터넷 연결 또는 방화벽 설정 확인 후 다시 시도 |
 | YouTube 로그인 요청 | 브라우저에서 YouTube 로그인 후 다시 시도 |
+| 앱 동작 이상 (StemMixer) | 활동 패널을 `Shift + 클릭`해 로그 확인 후 문의 |
 
 ---
 
@@ -97,27 +111,33 @@ StemMixer is a Windows AI stem separation and vocal remover app for separating a
 
 You can change key, adjust each stem level, and export the final result.
 
+**VocalRemover** is a companion app focused on **vocal removal** with a simpler mixer UI.
+
 ### Download
 
 **StemMixer**
 
-[**Download StemMixer v1.0.2 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.2_Installer.exe)
+[**Download StemMixer v1.1.0 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.0_Installer.exe)
 
 **VocalRemover**
 
-[**Download VocalRemover v1.0.1 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.1_Installer.exe)
+[**Download VocalRemover v1.0.2 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.2_Installer.exe)
 
-### Main Features
+### Main Features (StemMixer)
 
 | Feature | Description |
 | ------------------ | -------------------------------------------------------------- |
 | AI stem separation | Separate a song into vocals, drums, bass, and other stems |
+| HQ Vocal | Higher-quality vocal stem via hybrid cloud pipeline |
 | Pitch shift | Change key within ±2 semitones |
 | Vocal preservation | Keeps vocals more natural when changing key |
+| Drum bypass | Drums stay at the original pitch |
+| Playback speed | Adjust playback speed of separated stems |
 | Per-stem mixer | Adjust each stem level independently |
 | Presets | Quickly apply common combinations like no vocals or drums only |
 | Local files | Load audio files from your PC |
-| YouTube support | Paste a YouTube URL and use it directly |
+| YouTube support | Paste a YouTube URL or playlist and import tracks |
+| Fast reopen | Previously processed songs load faster |
 | Export | Save the result as WAV or MP3 |
 
 ### Workflow
