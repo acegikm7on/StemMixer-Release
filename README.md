@@ -31,18 +31,6 @@ It also supports vocal remover workflows, pitch shifting, per-stem volume mixing
 
 ---
 
-## 어떤 앱을 쓸까요?
-
-| | **StemMixer** | **VocalRemover** |
-|---|---|---|
-| 목적 | 4-stem 믹싱 · 키 변경 · 보내기 | 보컬 제거(반주 만들기) |
-| 스템 | 보컬 · 드럼 · 베이스 · 기타/건반 | 보컬 · 반주(2-track) |
-| 피치 / 프리셋 | ±2 반음, 9종 프리셋 | 없음 (보컬 블렌드만) |
-| UI | 풀 믹서 + HQ Vocal | 간단 슬라이더 |
-| 추천 | 연습·리믹스·스템별 조절 | MR·카라오케·보컬만 빼기 |
-
----
-
 ## 주요 기능 (StemMixer)
 
 | 기능 | 설명 |
@@ -144,14 +132,6 @@ StemMixer is a Windows AI stem separation and vocal remover app for separating a
 You can change key, adjust each stem level, and export the final result.
 
 **VocalRemover** is a companion app focused on **vocal removal** with a simpler mixer UI.
-
-### Which app?
-
-| | **StemMixer** | **VocalRemover** |
-|---|---|---|
-| Goal | 4-stem mix, pitch shift, export | Vocal removal (instrumental / MR) |
-| Stems | Vocals, drums, bass, other | Vocals + instrumental |
-| Best for | Practice, remix, per-stem control | Karaoke, quick vocal-off |
 
 ### Download
 
