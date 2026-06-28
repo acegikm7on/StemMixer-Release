@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>StemMixer - Windows AI Stem Separation &amp; Vocal Remover App</title>
-  <meta name="description" content="StemMixer is a Windows AI stem separation app for separating vocals, drums, bass, and instruments, with vocal remover, pitch shift, per-stem mixing, YouTube input, and WAV/MP3 export.">
+  <meta name="description" content="StemMixer v1.1.0 and VocalRemover v1.0.2 — Windows AI stem separation, vocal remover, pitch shift, YouTube playlist import, and WAV/MP3 export.">
   <meta name="keywords" content="AI stem separation, vocal remover, audio source separation, Windows stem splitter, remove vocals from song, split vocals drums bass instruments, pitch shift, karaoke, music practice">
   <link rel="canonical" href="https://acegikm7on.github.io/StemMixer-Release/">
   <meta property="og:title" content="StemMixer - Windows AI Stem Separation &amp; Vocal Remover App">
-  <meta property="og:description" content="Separate vocals, drums, bass, and instruments. Pitch shift, per-stem mixing, YouTube input, WAV/MP3 export.">
+  <meta property="og:description" content="StemMixer v1.1.0 + VocalRemover v1.0.2. Separate vocals, drums, bass, and instruments. HQ Vocal, pitch shift, playlist import, WAV/MP3 export.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://acegikm7on.github.io/StemMixer-Release/">
   <meta property="og:image" content="https://raw.githubusercontent.com/acegikm7on/StemMixer-Release/main/images/readme_banner.png">
@@ -34,6 +34,7 @@
     header { text-align: center; margin-bottom: 2rem; }
     h1 { font-size: 2rem; margin: 0.5rem 0; }
     h2 { margin-top: 2.5rem; border-bottom: 1px solid #2a2f3a; padding-bottom: 0.4rem; }
+    h3 { margin-top: 1.5rem; color: var(--muted); font-size: 1rem; font-weight: 600; }
     p.lead { font-size: 1.05rem; color: var(--muted); }
     .banner { width: 100%; max-width: 720px; border-radius: 12px; margin: 1rem auto; display: block; }
     .shot { width: 100%; border-radius: 10px; border: 1px solid #2a2f3a; margin: 1rem 0; }
@@ -64,6 +65,11 @@
     footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #2a2f3a; color: var(--muted); font-size: 0.9rem; }
     a { color: var(--link); }
     .lang-block { margin: 1rem 0; }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid #2a2f3a; padding: 0.5rem 0.65rem; text-align: left; vertical-align: top; }
+    th { background: var(--card); color: var(--muted); }
+    .release-note { margin: 0.5rem 0 1rem; padding-left: 1rem; border-left: 3px solid var(--accent); }
+    .release-note ul { margin: 0.35rem 0; padding-left: 1.2rem; }
   </style>
 </head>
 <body>
@@ -73,9 +79,9 @@
       <h1>StemMixer</h1>
       <div class="badges">
         <span>Windows</span>
-        <span>v1.0.2</span>
+        <span>StemMixer v1.1.0</span>
+        <span>VocalRemover v1.0.2</span>
         <span>AI stem separation</span>
-        <span>Vocal remover</span>
       </div>
       <img class="banner" src="https://raw.githubusercontent.com/acegikm7on/StemMixer-Release/main/images/readme_banner.png" alt="StemMixer banner">
     </header>
@@ -84,29 +90,42 @@
       <p class="lead">
         <strong>StemMixer</strong> is a Windows AI stem separation app that separates a song into
         <strong>vocals, drums, bass, and instruments</strong>.
-        It also supports vocal remover workflows, pitch shifting, per-stem volume mixing, YouTube input, and WAV/MP3 export.
+        HQ Vocal, pitch shift, per-stem mixing, YouTube playlist import, and WAV/MP3 export.
       </p>
       <p class="lead">
         <strong>StemMixer</strong>는 Windows용 AI 스템 분리 앱입니다.
-        곡을 보컬, 드럼, 베이스, 기타/건반 스템으로 분리하고, 보컬 제거, 키 변경, 악기별 믹싱, WAV/MP3 저장까지 한 번에 처리합니다.
+        4-stem 분리, HQ Vocal, 키 변경, YouTube 플레이리스트 import, WAV/MP3 저장을 지원합니다.
       </p>
     </section>
 
     <p>
-      <a class="cta" href="https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.0.2_Installer.exe">Download StemMixer v1.0.2</a>
-      <a class="cta secondary" href="https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.1_Installer.exe">Download VocalRemover v1.0.1</a>
-      <a class="cta secondary" href="https://github.com/acegikm7on/StemMixer-Release">GitHub Releases</a>
+      <a class="cta" href="https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.0_Installer.exe">Download StemMixer v1.1.0</a>
+      <a class="cta secondary" href="https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.2_Installer.exe">Download VocalRemover v1.0.2</a>
+      <a class="cta secondary" href="https://github.com/acegikm7on/StemMixer-Release/releases">All releases</a>
     </p>
 
     <img class="shot" src="https://raw.githubusercontent.com/acegikm7on/StemMixer-Release/main/images/screenshot.jpg" alt="StemMixer app screenshot">
 
-    <h2>Features</h2>
+    <h2>Which app?</h2>
+    <table>
+      <thead>
+        <tr><th></th><th>StemMixer</th><th>VocalRemover</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Goal</td><td>4-stem mix, pitch shift, export</td><td>Vocal removal (MR / karaoke)</td></tr>
+        <tr><td>Stems</td><td>Vocals, drums, bass, other</td><td>Vocals + instrumental</td></tr>
+        <tr><td>Best for</td><td>Practice, remix, per-stem control</td><td>Quick vocal-off, simple UI</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Features (StemMixer)</h2>
     <ul class="features">
-      <li>AI stem separation — split vocals, drums, bass, and other instruments</li>
-      <li>AI vocal remover presets — remove vocals or isolate stems quickly</li>
-      <li>Pitch shift within ±2 semitones for music practice and karaoke</li>
+      <li>AI stem separation — vocals, drums, bass, other</li>
+      <li>HQ Vocal hybrid cloud separation</li>
+      <li>Pitch shift within ±2 semitones</li>
+      <li>Playback speed control</li>
       <li>Per-stem volume mixer with presets</li>
-      <li>Local audio folders and YouTube URL input</li>
+      <li>Local folders and YouTube URL / playlist import</li>
       <li>Export mixed results as WAV or MP3</li>
     </ul>
 
@@ -118,6 +137,26 @@
       <li>Adjust pitch and per-stem levels.</li>
       <li>Export to WAV or MP3.</li>
     </ol>
+
+    <h2>Release notes</h2>
+    <div class="release-note">
+      <h3>StemMixer v1.1.0</h3>
+      <ul>
+        <li>HQ Vocal hybrid separation and dual-lane playback UX</li>
+        <li>FLAC stem cache for faster reopen</li>
+        <li>Playback speed control</li>
+        <li>Separate B2 activity log bucket</li>
+      </ul>
+    </div>
+    <div class="release-note">
+      <h3>VocalRemover v1.0.2</h3>
+      <ul>
+        <li>YouTube playlist import and track picker</li>
+        <li>Shared YouTube auth library (<code>stemmixer-common</code>)</li>
+        <li>CDP browser login flow</li>
+      </ul>
+    </div>
+    <p><a href="https://github.com/acegikm7on/StemMixer-Release/releases">Full release history on GitHub</a></p>
 
     <h2>Keywords</h2>
     <p class="keywords">
