@@ -121,7 +121,7 @@ OPEN → SPLIT → MIX → SAVE
 
 ## Keywords
 
-AI stem separation, vocal remover, audio source separation, Windows stem splitter, remove vocals from song, split vocals drums bass instruments, pitch shift, karaoke maker, music practice tool.
+AI stem separation, vocal remover, audio source separation, Windows stem splitter, remove vocals from song, split vocals drums bass instruments, pitch shift, music practice tool.
 
 ---
 
