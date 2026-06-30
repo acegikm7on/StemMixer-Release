@@ -3,8 +3,8 @@
 ![StemMixer Main Banner](images/readme_banner.png)
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square)
-![StemMixer](https://img.shields.io/badge/StemMixer-v1.1.0-41B883?style=flat-square)
-![VocalRemover](https://img.shields.io/badge/VocalRemover-v1.0.2-41B883?style=flat-square)
+![StemMixer](https://img.shields.io/badge/StemMixer-v1.1.1-41B883?style=flat-square)
+![VocalRemover](https://img.shields.io/badge/VocalRemover-v1.0.3-41B883?style=flat-square)
 [![Website](https://img.shields.io/badge/Website-stemmixer-41B883?style=flat-square)](https://acegikm7on.github.io/StemMixer-Release/)
 
 **StemMixer** is a Windows AI stem separation app that separates a song into **vocals, drums, bass, and instruments**.  
@@ -23,11 +23,11 @@ It also supports vocal remover workflows, pitch shifting, per-stem volume mixing
 
 ### StemMixer
 
-[**StemMixer v1.1.0 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.0_Installer.exe)
+[**StemMixer v1.1.1 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.1_Installer.exe)
 
 ### VocalRemover (보컬 제거 특화)
 
-[**VocalRemover v1.0.2 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.2_Installer.exe)
+[**VocalRemover v1.0.3 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.3_Installer.exe)
 
 ---
 
@@ -101,6 +101,19 @@ OPEN → SPLIT → MIX → SAVE
 
 ## 릴리스 노트
 
+### StemMixer v1.1.1
+
+- 재생 스트림 안정화 (출력 장치 fallback, watchdog, 스템 교체 후 재개)
+- runtime 설정: `.enc` 우선 로드 + RunPod 엔드포인트 정규화
+- 클라우드 RunPod lane 진단 로그 강화
+- 모노 스템 믹스 재생 수정, 상태바 cloud 오류 표시 개선
+
+### VocalRemover v1.0.3
+
+- runtime 설정: `.enc` 우선 로드 + `ensure_runtime_defaults_py` 부트스트랩
+- RunPod 엔드포인트 정책 통일 + wakeup 300초
+- 클라우드 RunPod 진단 로그 강화
+
 ### StemMixer v1.1.0
 
 - HQ Vocal 하이브리드 분리 및 dual-lane 재생 UX
@@ -137,11 +150,11 @@ You can change key, adjust each stem level, and export the final result.
 
 **StemMixer**
 
-[**Download StemMixer v1.1.0 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.0_Installer.exe)
+[**Download StemMixer v1.1.1 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.1_Installer.exe)
 
 **VocalRemover**
 
-[**Download VocalRemover v1.0.2 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.2_Installer.exe)
+[**Download VocalRemover v1.0.3 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.3_Installer.exe)
 
 ### Main Features (StemMixer)
 
