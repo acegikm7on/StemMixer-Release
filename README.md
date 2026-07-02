@@ -7,11 +7,7 @@
 ![VocalRemover](https://img.shields.io/badge/VocalRemover-v1.0.3-41B883?style=flat-square)
 [![Website](https://img.shields.io/badge/Website-stemmixer-41B883?style=flat-square)](https://acegikm7on.github.io/StemMixer-Release/)
 
-**StemMixer** is a Windows AI stem separation app that separates a song into **vocals, drums, bass, and instruments**.  
-It also supports vocal remover workflows, pitch shifting, per-stem volume mixing, YouTube input, and WAV/MP3 export.
-
-**StemMixer**는 Windows용 AI 스템 분리 앱입니다.  
-곡을 **보컬 · 드럼 · 베이스 · 기타/건반** 스템으로 분리하고, 보컬 제거, 키 변경, 악기별 믹싱, WAV/MP3 저장까지 한 번에 처리합니다.
+Windows용 AI 스템 분리 앱. 곡을 **보컬 · 드럼 · 베이스 · 기타/건반**으로 나누고, 키 변경·믹싱·WAV/MP3 저장까지 한 번에 처리합니다.
 
 ![StemMixer 앱 화면](images/screenshot.jpg)
 
@@ -21,40 +17,34 @@ It also supports vocal remover workflows, pitch shifting, per-stem volume mixing
 
 ## 다운로드
 
-### StemMixer
-
-[**StemMixer v1.1.1 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.1_Installer.exe)
-
-### VocalRemover (보컬 제거 특화)
-
-[**VocalRemover v1.0.3 Installer (exe) 다운로드**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.3_Installer.exe)
+| 앱 | 설치 파일 |
+|---|---|
+| **StemMixer** | [**v1.1.1 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.1_Installer.exe) |
+| **VocalRemover** (보컬 제거) | [**v1.0.3 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.3_Installer.exe) |
 
 ---
 
-## 주요 기능 (StemMixer)
+## 주요 기능
+
+### StemMixer
 
 | 기능 | 설명 |
 |---|---|
-| AI 스템 분리 | 한 곡을 보컬 · 드럼 · 베이스 · 기타/건반 스템으로 자동 분리 |
-| HQ Vocal | 고품질 보컬 분리(하이브리드 클라우드) |
-| 피치 시프트 | ±2 반음 범위에서 키 변경 |
-| 자연스러운 보컬 | 키를 바꿔도 목소리 느낌 변화 최소화 |
-| 드럼 원음 유지 | 드럼은 원래 소리 그대로 유지 |
+| AI 스템 분리 | 보컬 · 드럼 · 베이스 · 기타/건반 자동 분리 |
+| HQ Vocal | 고품질 보컬 분리 |
+| 피치 시프트 | ±2 반음 키 변경 |
 | 재생 속도 | 분리 결과 재생 속도 조절 |
-| 악기별 믹서 | 각 스템의 볼륨을 따로 조절 |
-| 프리셋 | 보컬 제거, 드럼 제거 등 자주 쓰는 조합 제공 |
-| 로컬 파일 지원 | PC에 저장된 음원 폴더를 불러와 사용 |
-| YouTube 지원 | YouTube URL · 플레이리스트를 붙여넣어 바로 사용 |
-| 빠른 다시 열기 | 이전 작업 결과를 빠르게 다시 불러옴 |
-| 보내기 | 현재 설정을 반영해 WAV 또는 MP3로 저장 |
+| 악기별 믹서 · 프리셋 | 스템별 볼륨, 보컬/드럼 제거 등 원터치 조합 |
+| YouTube | URL · 플레이리스트에서 곡 불러오기 |
+| 보내기 | WAV 또는 MP3 저장 |
 
 ### VocalRemover
 
 | 기능 | 설명 |
 |---|---|
-| 보컬 제거 | 보컬/반주 블렌드 조절 후 MP3·WAV로 저장 |
-| YouTube · 플레이리스트 | URL 또는 플레이리스트에서 곡 선택 import |
-| 간단 UI | 스템 믹서 없이 보컬 제거에 특화 |
+| 보컬 제거 | 보컬/반주 블렌드 조절 후 저장 |
+| YouTube | URL · 플레이리스트 import |
+| 간단 UI | 보컬 제거에 특화된 단순 화면 |
 
 ---
 
@@ -69,119 +59,40 @@ OPEN → SPLIT → MIX → SAVE
 1. 곡 파일 또는 YouTube URL을 엽니다.
 2. AI 스템 분리를 실행합니다.
 3. 피치와 악기별 볼륨을 조절합니다.
-4. 결과물을 WAV 또는 MP3로 저장합니다.
-
----
-
-## 프리셋
-
-자주 사용하는 조합을 버튼 한 번으로 적용할 수 있습니다.
-
-| 분류 | 프리셋 |
-| ----- | ----------------- |
-| 기본 | 원본 |
-| 보컬 | 보컬만 · 보컬 제거 |
-| 드럼 | 드럼만 · 드럼 제거 |
-| 베이스 | 베이스만 · 베이스 제거 |
-| 기타/건반 | 기타/건반만 · 기타/건반 제거 |
+4. WAV 또는 MP3로 저장합니다.
 
 ---
 
 ## 문제 해결
 
-| 상황 | 대처 방법 |
-| --------------------- | ------------------------------- |
-| Windows PC 보호 화면이 표시됨 | `추가 정보` → `실행` 선택 |
-| 분리 시작이 오래 걸림 | 잠시 기다린 뒤 다시 시도 |
-| 분리 실패 | 인터넷 연결 또는 방화벽 설정 확인 후 다시 시도 |
-| YouTube 로그인 요청 | 브라우저에서 YouTube 로그인 후 다시 시도 |
-| 앱 동작 이상 (StemMixer) | 활동 패널을 `Shift + 클릭`해 로그 확인 후 문의 |
+| 상황 | 대처 |
+|---|---|
+| Windows 보호 화면 | `추가 정보` → `실행` |
+| 분리가 오래 걸림 | 잠시 후 다시 시도 |
+| 분리 실패 | 인터넷·방화벽 확인 후 재시도 |
+| YouTube 로그인 요청 | 브라우저에서 로그인 후 재시도 |
+| 앱 동작 이상 | 활동 패널 `Shift + 클릭`으로 로그 확인 |
 
 ---
 
-## 릴리스 노트
+## 최근 업데이트
 
-### StemMixer v1.1.1
+**StemMixer v1.1.1** — 재생 안정화, 모노 믹스 수정, 분리·상태 표시 개선
 
-- 재생 스트림 안정화 (출력 장치 fallback, watchdog, 스템 교체 후 재개)
-- runtime 설정: `.enc` 우선 로드 + RunPod 엔드포인트 정규화
-- 클라우드 RunPod lane 진단 로그 강화
-- 모노 스템 믹스 재생 수정, 상태바 cloud 오류 표시 개선
+**VocalRemover v1.0.3** — 분리 안정성·상태 표시 개선
 
-### VocalRemover v1.0.3
-
-- runtime 설정: `.enc` 우선 로드 + `ensure_runtime_defaults_py` 부트스트랩
-- RunPod 엔드포인트 정책 통일 + wakeup 300초
-- 클라우드 RunPod 진단 로그 강화
-
-### StemMixer v1.1.0
-
-- HQ Vocal 하이브리드 분리 및 dual-lane 재생 UX
-- FLAC 스템 캐시로 재열기 속도 개선
-- 재생 속도 조절
-- B2 activity log 전용 버킷 분리 (analytics)
-
-### VocalRemover v1.0.2
-
-- YouTube 플레이리스트 import 및 곡 선택 UI
-- 공유 YouTube 인증 라이브러리 (`stemmixer-common`)
-- CDP 브라우저 로그인 흐름
-- StemMixer와 activity log 버킷 공유
-
-[전체 릴리스 · 이전 버전](https://github.com/acegikm7on/StemMixer-Release/releases)
+[이전 버전 포함 전체 릴리스](https://github.com/acegikm7on/StemMixer-Release/releases)
 
 ---
 
-## Keywords
+## English
 
-AI stem separation, vocal remover, audio source separation, Windows stem splitter, remove vocals from song, split vocals drums bass instruments, pitch shift, music practice tool.
+StemMixer separates a song into **vocals, drums, bass, and other instruments** on Windows. Change key, mix stems, and export WAV/MP3. **VocalRemover** is a companion app for vocal removal with a simpler UI.
 
----
-
-## English Summary
-
-StemMixer is a Windows AI stem separation and vocal remover app for separating a song into **vocals, drums, bass, and other instruments**.
-
-You can change key, adjust each stem level, and export the final result.
-
-**VocalRemover** is a companion app focused on **vocal removal** with a simpler mixer UI.
-
-### Download
-
-**StemMixer**
-
-[**Download StemMixer v1.1.1 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.1_Installer.exe)
-
-**VocalRemover**
-
-[**Download VocalRemover v1.0.3 Installer (exe)**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.3_Installer.exe)
-
-### Main Features (StemMixer)
-
-| Feature | Description |
-| ------------------ | -------------------------------------------------------------- |
-| AI stem separation | Separate a song into vocals, drums, bass, and other stems |
-| HQ Vocal | Higher-quality vocal stem via hybrid cloud pipeline |
-| Pitch shift | Change key within ±2 semitones |
-| Vocal preservation | Keeps vocals more natural when changing key |
-| Drum bypass | Drums stay at the original pitch |
-| Playback speed | Adjust playback speed of separated stems |
-| Per-stem mixer | Adjust each stem level independently |
-| Presets | Quickly apply common combinations like no vocals or drums only |
-| Local files | Load audio files from your PC |
-| YouTube support | Paste a YouTube URL or playlist and import tracks |
-| Fast reopen | Previously processed songs load faster |
-| Export | Save the result as WAV or MP3 |
-
-### Workflow
-
-```text
-OPEN → SPLIT → MIX → SAVE
-```
+**Download:** [StemMixer v1.1.1](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.1_Installer.exe) · [VocalRemover v1.0.3](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.3_Installer.exe)
 
 ---
 
 ## 문의
 
-* Developer: acegikm7on
-* Email: [acegikm7on@gmail.com](mailto:acegikm7on@gmail.com)
+* Developer: acegikm7on · [acegikm7on@gmail.com](mailto:acegikm7on@gmail.com)
