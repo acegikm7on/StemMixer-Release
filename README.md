@@ -3,7 +3,7 @@
 ![StemMixer Main Banner](images/readme_banner.png)
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square)
-![StemMixer](https://img.shields.io/badge/StemMixer-v1.1.1-41B883?style=flat-square)
+![StemMixer](https://img.shields.io/badge/StemMixer-v1.1.2-41B883?style=flat-square)
 ![VocalRemover](https://img.shields.io/badge/VocalRemover-v1.0.3-41B883?style=flat-square)
 [![Website](https://img.shields.io/badge/Website-stemmixer-41B883?style=flat-square)](https://acegikm7on.github.io/StemMixer-Release/)
 
@@ -23,7 +23,7 @@ Windows용 AI 음원 분리 앱입니다.
 
 | App | Use for / 용도 | Installer |
 |---|---|---|
-| **StemMixer** | Stem separation, key change, mixing, export / 스템 분리·키·믹싱·내보내기 | [**Download v1.1.1**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.1_Installer.exe) |
+| **StemMixer** | Stem separation, key change, mixing, export / 스템 분리·키·믹싱·내보내기 | [**Download v1.1.2**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.2_Installer.exe) |
 | **VocalRemover** | Simple vocal removal / 간단한 보컬 제거 | [**Download v1.0.3**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.3_Installer.exe) |
 
 ---
@@ -98,8 +98,8 @@ OPEN → SPLIT → MIX → SAVE
 
 ## Latest update / 최근 업데이트
 
-**StemMixer v1.1.1** — playback stability, mono mix fix, separation/status display improvements  
-**StemMixer v1.1.1** — 재생 안정화, 모노 믹스 수정, 분리·상태 표시 개선
+**StemMixer v1.1.2** — HQ upgrade path, Play/Export mixer unification, HQ vocal residual tuning  
+**StemMixer v1.1.2** — HQ 업그레이드 경로, 재생/내보내기 믹서 통일, HQ 보컬 잔향 조정
 
 **VocalRemover v1.0.3** — separation stability and status display improvements  
 **VocalRemover v1.0.3** — 분리 안정성·상태 표시 개선
