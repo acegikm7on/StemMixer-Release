@@ -3,8 +3,8 @@
 ![StemMixer Main Banner](images/readme_banner.png)
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square)
-![StemMixer](https://img.shields.io/badge/StemMixer-v1.1.3-41B883?style=flat-square)
-![VocalRemover](https://img.shields.io/badge/VocalRemover-v1.0.3-41B883?style=flat-square)
+![StemMixer](https://img.shields.io/badge/StemMixer-v1.1.4-41B883?style=flat-square)
+![VocalRemover](https://img.shields.io/badge/VocalRemover-v1.0.4-41B883?style=flat-square)
 [![Website](https://img.shields.io/badge/Website-stemmixer-41B883?style=flat-square)](https://acegikm7on.github.io/StemMixer-Release/)
 
 A simple Windows app for **AI music stem separation**.  
@@ -23,8 +23,8 @@ Windows용 AI 음원 분리 앱입니다.
 
 | App | Use for / 용도 | Installer |
 |---|---|---|
-| **StemMixer** | Stem separation, key change, mixing, export / 스템 분리·키·믹싱·내보내기 | [**Download v1.1.3**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.3_Installer.exe) |
-| **VocalRemover** | Simple vocal removal / 간단한 보컬 제거 | [**Download v1.0.3**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.3_Installer.exe) |
+| **StemMixer** | Stem separation, key change, mixing, export / 스템 분리·키·믹싱·내보내기 | [**Download v1.1.4**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.4_Installer.exe) |
+| **VocalRemover** | Simple vocal removal / 간단한 보컬 제거 | [**Download v1.0.4**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.4_Installer.exe) |
 
 ---
 
@@ -98,11 +98,11 @@ OPEN → SPLIT → MIX → SAVE
 
 ## Latest update / 최근 업데이트
 
-**StemMixer v1.1.3** — Sanitize long/YouTube titles (\..\, length) before cloud extract  
-**StemMixer v1.1.3** — 긴 YouTube 제목(\..\, 길이)을 분리 전에 안전한 파일명으로 정리
+**StemMixer v1.1.4** — Smoother track/key/speed changes, more reliable cloud zip download  
+**StemMixer v1.1.4** — 곡·키·배속 전환 시 UI 멈춤 완화, 클라우드 zip 다운로드 안정화
 
-**VocalRemover v1.0.3** — separation stability and status display improvements  
-**VocalRemover v1.0.3** — 분리 안정성·상태 표시 개선
+**VocalRemover v1.0.4** — YouTube CDN 403 handling, export error dialog  
+**VocalRemover v1.0.4** — YouTube CDN 403 처리, 내보내기 오류 안내
 
 [All releases / 전체 릴리스](https://github.com/acegikm7on/StemMixer-Release/releases)
 
