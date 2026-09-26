@@ -22,11 +22,20 @@ Windows용 AI 음원 분리 앱입니다.
 
 ## Download / 다운로드
 
+<p>
+  <a href="https://stemmixer.acegikm7on.workers.dev"><img alt="NEW StemMixer Web" src="https://img.shields.io/badge/NEW-StemMixer%20Web-ff4d4f?style=for-the-badge"></a>
+  <a href="https://stemmixer.acegikm7on.workers.dev"><img alt="Multi-platform web browsers" src="https://img.shields.io/badge/Any%20browser-Windows%20%C2%B7%20macOS%20%C2%B7%20Linux%20%C2%B7%20iPhone%20%C2%B7%20Android-0072ff?style=for-the-badge"></a>
+</p>
+
+**StemMixer Web** is the multi-platform way to open a song. It runs in the web browser, so the same link works on Windows, macOS, Linux, iPhone, and Android. No installer.
+
+**StemMixer Web**은 여러 플랫폼에서 쓰는 브라우저 앱입니다. Windows, macOS, Linux, iPhone, Android 어디서나 같은 주소로 열고, 설치 없이 곡을 나누고 믹싱합니다. → [**Open / 열기**](https://stemmixer.acegikm7on.workers.dev)
+
 | App | Use for / 용도 | Installer |
 |---|---|---|
+| **StemMixer Web** ![NEW](https://img.shields.io/badge/NEW-ff4d4f?style=flat-square) | Multi-platform in any web browser — no install / 설치 없이 Windows·macOS·Linux·스마트폰 웹브라우저 | [**Open / 열기**](https://stemmixer.acegikm7on.workers.dev) |
 | **StemMixer** | Stem separation, key change, mixing, export / 스템 분리·키·믹싱·내보내기 | [**Download v1.1.4**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/StemMixer_v1.1.4_Installer.exe) |
 | **VocalRemover** | Simple vocal removal / 간단한 보컬 제거 | [**Download v1.0.4**](https://github.com/acegikm7on/StemMixer-Release/releases/latest/download/VocalRemover_v1.0.4_Installer.exe) |
-| **StemMixer Web** | Song info and mixing in the browser / 브라우저에서 곡 정보와 믹싱 | [**Open**](https://stemmixer.acegikm7on.workers.dev) |
 
 ---
 
@@ -37,7 +46,7 @@ Windows용 AI 음원 분리 앱입니다.
 | Separate vocals, drums, bass, and instruments / 여러 악기로 분리 | **StemMixer** |
 | Change key, adjust stem volume, and export a custom mix / 키·볼륨 조절 후 저장 | **StemMixer** |
 | Remove or reduce vocals with a simpler screen / 보컬만 빠르게 줄이기 | **VocalRemover** |
-| See what is in the song without installing / 설치 없이 곡 정보 보기 | **StemMixer Web** |
+| Mix a song in any web browser, on any platform, without installing / 어떤 기기 웹브라우저에서나 설치 없이 믹싱 | **StemMixer Web** ![NEW](https://img.shields.io/badge/NEW-ff4d4f?style=flat-square) |
 
 ---
 
@@ -85,11 +94,11 @@ OPEN → SPLIT → MIX → SAVE
 | YouTube import | Import from URL or playlist |
 | Simple UI | Focused screen for quick vocal removal |
 
-### StemMixer Web
+### StemMixer Web ![NEW](https://img.shields.io/badge/NEW-ff4d4f?style=flat-square)
 
-The browser app adds a song-info panel for the file you opened. Loudness and peak-to-average describe the original mix. Balance and frequency follow the faders.
+Open it in a web browser on Windows, macOS, Linux, iPhone, or Android. Nothing to install — the same page is the app on every platform. The song-info panel describes the file you opened. Loudness and peak-to-average describe the original mix. Balance and frequency follow the faders.
 
-브라우저 버전은 연 곡의 파일 정보를 보여 줍니다. 음량과 피크-평균 차이는 원곡 기준이고, 밸런스와 주파수는 현재 페이더를 따릅니다.
+Windows, macOS, Linux, iPhone, Android의 웹브라우저에서 바로 엽니다. 설치 프로그램 없이, 같은 주소가 모든 플랫폼의 앱입니다. 연 곡의 파일 정보를 보여 주고, 음량과 피크-평균 차이는 원곡 기준이며, 밸런스와 주파수는 현재 페이더를 따릅니다. → [**stemmixer.acegikm7on.workers.dev**](https://stemmixer.acegikm7on.workers.dev)
 
 <p align="center">
   <img src="images/web_song_info.jpg" alt="StemMixer Web song info">
@@ -100,7 +109,7 @@ The browser app adds a song-info panel for the file you opened. Loudness and pea
 | Format, size, duration / 형식 · 크기 · 길이 | The opened file |
 | Loudness / 음량 | How loud the original mix is: a short label and the LUFS number. The scale places average level and peak in dBFS |
 | Peak-to-average / 피크-평균 차이 | How far peaks sit above the average: a short contrast label and the dB number. This is contrast, not a quality score |
-| Left–right stage / 공간감 · 좌우 | Where vocals, drums, bass, and other sit from left to right |
+| Space / 공간감 | Where vocals, drums, bass, and other sit from left to right |
 | Balance / 밸런스 | Each stem's share of the current mix |
 | Frequency / 주파수 | Each stem's energy from low to high |
 
