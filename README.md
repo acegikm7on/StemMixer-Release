@@ -91,7 +91,9 @@ The browser app adds a song-info panel for the file you opened. Loudness and pea
 
 브라우저 버전은 연 곡의 파일 정보를 보여 줍니다. 음량과 피크-평균 차이는 원곡 기준이고, 밸런스와 주파수는 현재 페이더를 따릅니다.
 
-![StemMixer Web song info](images/web_song_info.jpg)
+<p align="center">
+  <img src="images/web_song_info.jpg" alt="StemMixer Web song info">
+</p>
 
 | Item / 항목 | What it shows / 내용 |
 |---|---|
